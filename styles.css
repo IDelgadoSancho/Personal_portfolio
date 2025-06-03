@@ -437,5 +437,24 @@ header.section h1, header.section p, .profile-images {
         gap: 1rem;
     }
     .scroll-icon { font-size: 2rem; }
-    #about { width: 90%; }
+    #about {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 3.5rem;
+        position: relative;
+    }
+    #about .scroll-icon.down-icon {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        transform: none;
+        display: block;
+        margin-top: 2.5rem;
+        margin-bottom: 0;
+    }
 }
